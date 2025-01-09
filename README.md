@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: multiple mutable borrows of the same variable.  The `bug.rs` file contains the erroneous code, which attempts to create two mutable references (`y` and `z`) to the same variable `x`.  The `bugSolution.rs` file offers a corrected version illustrating a common solution using techniques to avoid this issue.
